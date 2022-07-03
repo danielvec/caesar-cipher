@@ -17,6 +17,6 @@ def caesar_cipher(input, number)
     num_to_letter = final_num.map {|num| num.chr}
     #join letters
     result = num_to_letter.join('')
-    puts result
+    result
 end
 caesar_cipher("What a string!", 5)
